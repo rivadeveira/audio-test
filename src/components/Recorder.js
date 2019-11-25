@@ -5,9 +5,12 @@ import RecordAudio from '..utils/RecordAudio';
 
 function Recorder(props) {
     const [statusRec, setStatusRec] = useState('no-record');
+
+    useEffect( )
+
     function handleRecord() {
-        if (!statusRec) {
-            setawait recordAudio();
+        if (statusRec ) {
+            //setawait recordAudio();
           }
           recorder.start();
     }   
